@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: skyblue;
+}
+#container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#container > *{
+    margin-top: 20px;
+}
+button{
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: black;
+    color: skyblue;
+}
+input{
+    height: 5vh;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
